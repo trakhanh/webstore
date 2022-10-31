@@ -174,3 +174,11 @@ a:hover {
     background-color: #444444;
     transform: translateY(-50%);
 }
+
+.product-title {
+    font-weight: 600;
+}
+
+.product-title:hover {
+    color: orange;
+}
