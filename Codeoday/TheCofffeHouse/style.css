@@ -1,8 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,200;1,400;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap");
 * {
-    padding: 0;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none !important;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+html {
+    font-size: 90.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+html::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: orange;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        -webkit-transform: translateY(-2rem);
+        transform: translateY(-2rem);
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        -webkit-transform: translateY(-2rem);
+        transform: translateY(-2rem);
+        opacity: 0;
+    }
+}
+
+section {
+    padding: 5rem 1rem;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: #222;
+}
+
+.header {
+    z-index: 2000;
+    padding: 5rem 0;
 }
 
 .dropdown-item:hover {
@@ -87,6 +146,7 @@ footer {
 .contact span {
     display: flex;
     align-items: center;
+    font-size: medium;
 }
 
 .contact i {
@@ -125,4 +185,249 @@ footer {
 
 .link:hover {
     color: orange;
+}
+
+.link {
+    font-weight: 400;
+}
+
+.home {
+    background: (linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(/images/home-bg.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/home-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.home span {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.home h3 {
+    padding: 1rem 0;
+    font-size: 6rem;
+    color: #fff;
+}
+
+.home .link-btn {
+    color: #fff;
+    border-color: #fff;
+}
+
+.about span {
+    font-size: 2.5rem;
+    color: #512a10;
+}
+
+.about .title {
+    padding-top: 1rem;
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: #222;
+}
+
+.about p {
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    line-height: 2;
+    color: #666;
+    margin-bottom: 0;
+}
+
+.about .icons-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    gap: 1.5rem;
+}
+
+.about .icons-container .icons {
+    padding: 2rem;
+    background: #eee;
+    text-align: center;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 14rem;
+    flex: 1 1 14rem;
+}
+
+.about .icons-container .icons i {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    color: #512a10;
+}
+
+.about .icons-container .icons h3 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: #222;
+}
+
+.menu {
+    background: #eee;
+}
+
+.menu .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
+
+.menu .box-container .box {
+    text-align: center;
+    padding: 3rem 2rem;
+    border-radius: .5rem;
+}
+
+.menu .box-container .box:hover {
+    background: #fff;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    -webkit-transform: translateY(-1rem);
+    transform: translateY(-1rem);
+}
+
+.menu .box-container .box img {
+    height: 15rem;
+    margin-bottom: 2rem;
+}
+
+.menu .box-container .box h3 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #222;
+}
+
+.menu .box-container .box p {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #666;
+    margin-bottom: 0;
+}
+
+.gallery .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
+
+.gallery .box-container .box {
+    overflow: hidden;
+    position: relative;
+    height: 25rem;
+}
+
+.gallery .box-container .box:hover {
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border: 0.1rem solid #512a10;
+}
+
+.gallery .box-container .box:hover img {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+.gallery .box-container .box:hover .content {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.gallery .box-container .box img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.gallery .box-container .box .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    text-align: center;
+    padding: 3rem 2rem;
+    height: 100%;
+    width: 100%;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    padding-top: 4rem;
+}
+
+.gallery .box-container .box .content h3 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #222;
+}
+
+.gallery .box-container .box .content p {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #666;
+    margin-bottom: 0;
+}
+
+.reviews {
+    background: #eee;
+}
+
+.reviews .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
+
+.reviews .box-container .box {
+    text-align: center;
+    padding: 3rem 2rem;
+    border-radius: .5rem;
+}
+
+.reviews .box-container .box:hover {
+    background: #fff;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    -webkit-transform: translateY(-1rem);
+    transform: translateY(-1rem);
+}
+
+.reviews .box-container .box img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+
+.reviews .box-container .box h3 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #222;
+}
+
+.reviews .box-container .box p {
+    font-size: 1.6rem;
+    line-height: 2;
+    color: #666;
+    margin-bottom: 0;
+    padding: 1rem 0;
+}
+
+.reviews .box-container .box .stars {
+    margin-top: 1rem;
+}
+
+.reviews .box-container .box .stars i {
+    font-size: 1.7rem;
+    color: black;
 }
