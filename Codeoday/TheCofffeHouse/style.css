@@ -406,3 +406,7 @@ footer {
     font-size: 1.7rem;
     color: black;
 }
+
+.search {
+    padding-right: 10px;
+}
