@@ -208,7 +208,7 @@
                                 </ul>
                             </div>
                             <div class="part-2">
-                                <h3 class="product-title">Trà Đào Cam Sa - Nóng</h3>
+                                <h3 class="product-title">Trà Đào Cam Sả - Nóng</h3>
                                 <!-- <h4 class="product-old-price">$79.99</h4> -->
                                 <h4 class="product-price">55.000VND</h4>
                             </div>
