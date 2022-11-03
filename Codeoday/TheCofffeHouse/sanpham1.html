@@ -11,10 +11,11 @@
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="product-tea1.css" rel="stylesheet">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="sanpham1.css">
     <title>The Coffee House</title>
 
 </head>
@@ -26,18 +27,22 @@
             <a class="navbar-brand" href="homepage.html">
                 <img src="/assets/logo.png" alt="" width="250px" height="40px ">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">
                 </span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link table-active" aria-current="page" role="button" href="homepage.html">Trang Chủ</a>
+                        <a class="nav-link table-active" aria-current="page" role="button" href="homepage.html">Trang
+                            Chủ</a>
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" aria-current="page" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Sản Phẩm
                         </a>
                         <ul class="dropdown-menu">
@@ -72,6 +77,92 @@
         </div>
 
     </header>
+
+    <div class="card container-fluid">
+        <div class="row">
+
+
+            <div class="img-big-wrap col-lg-5">
+                <!-- <a href="#"><img src="/cafe/coffeevietnam/1.jpg"/></a> -->
+                <a href="#"> <img src="/cafe/coffeevietnam/1.jpg" alt=""> </a>
+            </div> <!-- slider-product.// -->
+            <div class="card-body p-5 col-lg-7">
+                <h3 class="title mb-3">Original Version of Some product name</h3>
+
+                <p class="price-detail-wrap">
+                    <span class="price h3 text-warning">
+                        <span class="currency">US $</span><span class="num">1299</span>
+                    </span>
+                    <span>/per kg</span>
+                </p> <!-- price-detail-wrap .// -->
+                <dl class="item-property">
+                    <dt>Description</dt>
+                    <dd>
+                        <p>Here goes description consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco </p>
+                    </dd>
+                </dl>
+                <dl class="param param-feature">
+                    <dt>Model#</dt>
+                    <dd>12345611</dd>
+                </dl> <!-- item-property-hor .// -->
+                <dl class="param param-feature">
+                    <dt>Color</dt>
+                    <dd>Black and white</dd>
+                </dl> <!-- item-property-hor .// -->
+                <dl class="param param-feature">
+                    <dt>Delivery</dt>
+                    <dd>Russia, USA, and Europe</dd>
+                </dl> <!-- item-property-hor .// -->
+
+                <hr>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <dl class="param param-inline">
+                            <dt>Quantity: </dt>
+                            <dd>
+                                <select class="form-control form-control-sm" style="width:70px;">
+                                    <option> 1 </option>
+                                    <option> 2 </option>
+                                    <option> 3 </option>
+                                </select>
+                            </dd>
+                        </dl> <!-- item-property .// -->
+                    </div> <!-- col.// -->
+                    <div class="col-sm-7">
+                        <dl class="param param-inline">
+                            <dt>Size: </dt>
+                            <dd>
+                                <label class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2">
+                                    <span class="form-check-label">SM</span>
+                                </label>
+                                <label class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2">
+                                    <span class="form-check-label">MD</span>
+                                </label>
+                                <label class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2">
+                                    <span class="form-check-label">XXL</span>
+                                </label>
+                            </dd>
+                        </dl> <!-- item-property .// -->
+                    </div> <!-- col.// -->
+                </div> <!-- row.// -->
+                <hr>
+                <a href="#" class="btn btn-lg btn-primary text-uppercase"> Buy now </a>
+                <a href="#" class="btn btn-lg btn-outline-primary text-uppercase"> <i class="fas fa-shopping-cart"></i>
+                    Add to cart </a>
+            </div>
+
+        </div> <!-- card.// -->
+
+
+    </div>
 
     <footer class="container-fluid ">
         <div class="row ">
