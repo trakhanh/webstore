@@ -114,13 +114,11 @@
                     <div class="col-sm-5">
                         <dl class="param param-inline">
                             <dt>Số Lượng: </dt>
-                            <dd>
-                                <select class="form-control form-control-sm" style="width:70px;">
-                                    <option> 1 </option>
-                                    <option> 2 </option>
-                                    <option> 3 </option>
-                                </select>
-                            </dd>
+                            <div class="counter">
+                                <span class="down" onClick='decreaseCount(event, this)'>-</span>
+                                <input type="text" value="1">
+                                <span class="up" onClick='increaseCount(event, this)'>+</span>
+                            </div>
                         </dl> <!-- item-property .// -->
                     </div> <!-- col.// -->
                     <div class="col-sm-7">
@@ -183,7 +181,7 @@
         </div>
     </footer>
     <script src="../assets/dist/js/bootstrap.bundle.min.js "></script>
-    <script src="/Codeoday/script.js "></script>
+    <script src="quantity.js"></script>
 
 
 </body>
