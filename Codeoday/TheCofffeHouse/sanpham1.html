@@ -27,9 +27,7 @@
             <a class="navbar-brand" href="homepage.html">
                 <img src="/assets/logo.png" alt="" width="250px" height="40px ">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">
                 </span>
             </button>
@@ -41,8 +39,7 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" aria-current="page" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Sản Phẩm
                         </a>
                         <ul class="dropdown-menu">
@@ -85,7 +82,8 @@
             <div class="img-big-wrap col-lg-5">
                 <!-- <a href="#"><img src="/cafe/coffeevietnam/1.jpg"/></a> -->
                 <a href="#"> <img src="/cafe/coffeevietnam/7.jpg" alt=""> </a>
-            </div> <!-- slider-product.// -->
+            </div>
+            <!-- slider-product.// -->
             <div class="card-body p-5 col-lg-7">
                 <h3 class="title mb-3">Cà Phê Sữa Nóng</h3>
 
@@ -93,51 +91,52 @@
                     <span class="price h3 text-warning">
                         <span class="currency"></span><span class="num">35.000 VND</span>
                     </span>
-                </p> <!-- price-detail-wrap .// -->
+                </p>
+                <!-- price-detail-wrap .// -->
                 <dl class="item-property">
                     <dt>Mô Tả Sản Phẩm</dt>
                     <dd>
-                        <p>Cà phê được pha phin truyền thống kết hợp với sữa đặc tạo nên hương vị đậm đà, hài hòa giữa vị ngọt đầu lưỡi và vị đắng thanh thoát nơi hậu vị.
-
-                            . </p>
+                        <p>Cà phê được pha phin truyền thống kết hợp với sữa đặc tạo nên hương vị đậm đà, hài hòa giữa vị ngọt đầu lưỡi và vị đắng thanh thoát nơi hậu vị. . </p>
                     </dd>
                 </dl>
                 <dl class="param param-feature">
                     <dt>Nguyên Liệu </dt>
-                    <dd>Cà phê xay: 2 muỗng cà phê.
-                        Sữa đặc: 2 muỗng canh.
-                        Nước sôi: 100ml. </dd>
-                </dl> <!-- item-property-hor .// -->
-                
+                    <dd>Cà phê xay: 2 muỗng cà phê. Sữa đặc: 2 muỗng canh. Nước sôi: 100ml. </dd>
+                </dl>
+                <!-- item-property-hor .// -->
+
 
                 <hr>
                 <div class="row">
                     <div class="col-sm-5">
                         <dl class="param param-inline">
                             <dt>Số Lượng: </dt>
-                            <dd>
-                                <select class="form-control form-control-sm" style="width:70px;">
-                                    <option> 1 </option>
-                                    <option> 2 </option>
-                                    <option> 3 </option>
-                                </select>
-                            </dd>
-                        </dl> <!-- item-property .// -->
-                    </div> <!-- col.// -->
+                            <div class="counter">
+                                <span class="down" onClick='decreaseCount(event, this)'>-</span>
+                                <input type="text" value="1">
+                                <span class="up" onClick='increaseCount(event, this)'>+</span>
+                            </div>
+                        </dl>
+                        <!-- item-property .// -->
+                    </div>
+                    <!-- col.// -->
                     <div class="col-sm-7">
                         <dl class="param param-inline">
-                           
-        
-                        </dl> <!-- item-property .// -->
-                    </div> <!-- col.// -->
-                </div> <!-- row.// -->
+
+
+                        </dl>
+                        <!-- item-property .// -->
+                    </div>
+                    <!-- col.// -->
+                </div>
+                <!-- row.// -->
                 <hr>
                 <a href="#" class="btn btn-lg btn-primary text-uppercase hihi"> Mua Ngay </a>
-                <a href="#" class="btn btn-lg btn-outline-primary text-uppercase hihi"> <i class="fas fa-shopping-cart"></i>
-                    Thêm Vào Giỏ Hàng </a>
+                <a href="#" class="btn btn-lg btn-outline-primary text-uppercase hihi"> <i class="fas fa-shopping-cart"></i> Thêm Vào Giỏ Hàng </a>
             </div>
 
-        </div> <!-- card.// -->
+        </div>
+        <!-- card.// -->
 
 
     </div>
@@ -184,7 +183,7 @@
         </div>
     </footer>
     <script src="../assets/dist/js/bootstrap.bundle.min.js "></script>
-    <script src="/Codeoday/script.js "></script>
+    <script src="quantity.js"></script>
 
 
 </body>
