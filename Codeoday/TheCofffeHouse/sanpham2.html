@@ -10,7 +10,7 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/product/">
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link href="product-tea1.css" rel="stylesheet">
+    <link href="product.css" rel="stylesheet">
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
@@ -24,12 +24,8 @@
     <header class="navbar navbar-expand-xl bg-light">
         <div class="container-fluid">
 
-            <a class="navbar-brand" href="homepage.html">
-                <img src="/assets/logo.png" alt="" width="250px" height="40px ">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <a href="homepage.html" class="logo mr-auto"> <i class="fas fa-mug-hot"></i> Cozy Coffee </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">
                 </span>
             </button>
@@ -41,8 +37,7 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" aria-current="page" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Sản Phẩm
                         </a>
                         <ul class="dropdown-menu">
@@ -85,7 +80,8 @@
             <div class="img-big-wrap col-lg-5">
                 <!-- <a href="#"><img src="/cafe/coffeevietnam/1.jpg"/></a> -->
                 <a href="#"> <img src="/cafe/coffeevietnam/4.jpg" alt=""> </a>
-            </div> <!-- slider-product.// -->
+            </div>
+            <!-- slider-product.// -->
             <div class="card-body p-5 col-lg-7">
                 <h3 class="title mb-3">Cà Phê Đen Nóng</h3>
 
@@ -93,21 +89,22 @@
                     <span class="price h3 text-warning">
                         <span class="currency"></span><span class="num">35.000 VND</span>
                     </span>
-                </p> <!-- price-detail-wrap .// -->
+                </p>
+                <!-- price-detail-wrap .// -->
                 <dl class="item-property">
                     <dt>Mô Tả Sản Phẩm</dt>
                     <dd>
-                        <p>Không ngọt ngào như Bạc sỉu hay Cà phê sữa, Cà phê đen mang trong mình phong vị trầm lắng, thi vị hơn. Người ta thường phải ngồi rất lâu mới cảm nhận được hết hương thơm ngào ngạt, phảng phất mùi cacao và cái đắng mượt mà trôi tuột xuống vòm họng.</p>
+                        <p>Không ngọt ngào như Bạc sỉu hay Cà phê sữa, Cà phê đen mang trong mình phong vị trầm lắng, thi vị hơn. Người ta thường phải ngồi rất lâu mới cảm nhận được hết hương thơm ngào ngạt, phảng phất mùi cacao và cái đắng mượt mà trôi
+                            tuột xuống vòm họng.</p>
                     </dd>
                 </dl>
                 <dl class="param param-feature">
                     <dt>Nguyên Liệu </dt>
-                    <dd>Cafe bột: 3 thìa canh.
-                        Đường cát trắng: 1 thìa canh.                  
-                        Nước sôi: 160ml.
-                       </dd>
-                </dl> <!-- item-property-hor .// -->
-                
+                    <dd>Cafe bột: 3 thìa canh. Đường cát trắng: 1 thìa canh. Nước sôi: 160ml.
+                    </dd>
+                </dl>
+                <!-- item-property-hor .// -->
+
 
                 <hr>
                 <div class="row">
@@ -119,36 +116,40 @@
                                 <input type="text" value="1">
                                 <span class="up" onClick='increaseCount(event, this)'>+</span>
                             </div>
-                        </dl> <!-- item-property .// -->
-                    </div> <!-- col.// -->
+                        </dl>
+                        <!-- item-property .// -->
+                    </div>
+                    <!-- col.// -->
                     <div class="col-sm-7">
                         <dl class="param param-inline">
-                           
-        
-                        </dl> <!-- item-property .// -->
-                    </div> <!-- col.// -->
-                </div> <!-- row.// -->
+
+
+                        </dl>
+                        <!-- item-property .// -->
+                    </div>
+                    <!-- col.// -->
+                </div>
+                <!-- row.// -->
                 <hr>
                 <a href="#" class="btn btn-lg btn-primary text-uppercase"> Buy now </a>
-                <a href="#" class="btn btn-lg btn-outline-primary text-uppercase"> <i class="fas fa-shopping-cart"></i>
-                    Add to cart </a>
+                <a href="#" class="btn btn-lg btn-outline-primary text-uppercase"> <i class="fas fa-shopping-cart"></i> Add to cart </a>
             </div>
 
-        </div> <!-- card.// -->
+        </div>
+        <!-- card.// -->
 
 
     </div>
 
     <footer class="container-fluid ">
         <div class="row ">
-            <div class="col-12 col-md ">
-                <img src="/assets/logo.png " alt=" " width="325 " height="48 ">
-                <title>The Coffee House</title>
+            <div class="col-6 col-md">
+                <a href="homepage.html" class="logo-bottom"> <i class="fas fa-mug-hot"></i> Cozy Coffee </a>
                 <div class="social ">
-                    <a href="# "><i class='bx bxl-facebook'></i></a>
-                    <a href="# "><i class='bx bxl-twitter'></i></a>
-                    <a href="# "><i class='bx bxl-instagram'></i></a>
-                    <a href="# "><i class='bx bxl-tiktok'></i></a>
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-github"></a>
                 </div>
             </div>
             <div class="col-6 col-md ">
