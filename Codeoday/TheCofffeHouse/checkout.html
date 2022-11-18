@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/product/">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product.css">
+    <title>Cozy Coffee Shop</title>
+
+</head>
+</head>
+
+<body class="bg-light">
+    <header class="navbar navbar-expand-xl bg-light">
+        <div class="container-fluid">
+
+            <a href="homepage.html" class="logo mr-auto"> <i class="fas fa-mug-hot"></i>
+                <span>Cozy Coffee </span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                </span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link table-active" aria-current="page" role="button" href="homepage.html">Trang Chủ</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sản Phẩm
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="coffe.html">Cà Phê</a>
+                            </li>
+                            <li><a class="dropdown-item" href="tea1.html">Trà</a></li>
+                            <li><a class="dropdown-item" href="daxay.html">Đá Xay</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="All_Products.html">Tất Cả Sản Phẩm</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link table-active" aria-current="page" href="#">Giới Thiệu</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0 search">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+                </form>
+                <div class="text-end">
+                    <a href="register-login.html"> <button type="button" class="btn btn-light text-dark me-2">Đăng Nhập</button></a>
+                    <a href="register-login.html"> <button type="button" class="btn btn-primary">Đăng Ký</button></a>
+                </div>
+
+                <div class="cart">
+                    <a href="shop-cart.html"><i class='bx bx-cart-alt'></i></a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <div class="container-fluid">
+        <div class="py-5 text-center">
+
+            <h2>Trang Thanh Toán</h2>
+            <div class="row">
+                <div class="col-md-4 order-md-2 mb-4">
+                    <h4 class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="text-muted">Giỏ Hàng Của Bạn</span>
+                        <span class="badge badge-secondary badge-pill">3</span>
+                    </h4>
+                    <ul class="list-group mb-3">
+                        <li class="list-group-item d-flex justify-content-between lh-condensed">
+                            <div>
+                                <h6 class="my-0">Product name</h6>
+                                <small class="text-muted">Brief description</small>
+                            </div>
+                            <span class="text-muted">$12</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between lh-condensed">
+                            <div>
+                                <h6 class="my-0">Second product</h6>
+                                <small class="text-muted">Brief description</small>
+                            </div>
+                            <span class="text-muted">$8</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between lh-condensed">
+                            <div>
+                                <h6 class="my-0">Third item</h6>
+                                <small class="text-muted">Brief description</small>
+                            </div>
+                            <span class="text-muted">$5</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between bg-light">
+                            <div class="text-success">
+                                <h6 class="my-0">Mã Khuyến Mãi</h6>
+                                <small>EXAMPLECODE</small>
+                            </div>
+                            <span class="text-success">-$5</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between">
+                            <span>Total (USD)</span>
+                            <strong>$20</strong>
+                        </li>
+                    </ul>
+
+                    <form class="card p-2">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Mã Khuyến Mãi">
+                            <div class=" input-group-append ">
+                                <button type="submit " class="btn btn-secondary ">Đổi Thưởng</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-8 order-md-1 ">
+                    <h4 class="mb-3 ">Địa Chỉ Thanh Toán</h4>
+                    <form class="needs-validation " novalidate>
+                        <div class="row ">
+                            <div class="col-md-6 mb-3 ">
+                                <label for="firstName ">Tên</label>
+                                <input type="text " class="form-control " id="firstName " placeholder=" " value=" " required>
+                                <div class="invalid-feedback ">
+                                    Nhập Tên Hợp Lệ
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3 ">
+                                <label for="lastName ">Họ</label>
+                                <input type="text " class="form-control " id="lastName " placeholder=" " value=" " required>
+                                <div class="invalid-feedback ">
+                                    Nhập Họ Hợp Lệ
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3 ">
+                            <label for="email ">Email <span class="text-muted ">(Optional)</span></label>
+                            <input type="email " class="form-control " id="email " placeholder="you@example.com ">
+                            <div class="invalid-feedback ">
+                                Vui lòng nhập địa chỉ email để giao hàng
+                            </div>
+                        </div>
+
+                        <div class="mb-3 ">
+                            <label for="address ">Địa Chỉ</label>
+                            <input type="text " class="form-control " id="address " placeholder="Địa Chỉ Của Bạn " required>
+                            <div class="invalid-feedback ">
+                                Vui lòng nhập địa chỉ để giao hàng.
+                            </div>
+                        </div>
+                        <hr class="mb-4 ">
+                        <button class="btn btn-primary btn-lg btn-block " type="submit ">Xác Nhận Thanh Toán</button>
+                    </form>
+                </div>
+            </div>
+
+            <footer class="container-fluid ">
+                <div class="row ">
+                    <div class="col-6 col-md ">
+                        <a href="homepage.html " class="logo-bottom "> <i class="fas fa-mug-hot "></i> Cozy Coffee </a>
+                        <div class="social ">
+                            <a href="# " class="fab fa-facebook-f "></a>
+                            <a href="# " class="fab fa-linkedin "></a>
+                            <a href="# " class="fab fa-twitter "></a>
+                            <a href="# " class="fab fa-github "></a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md ">
+                        <h4>Giới Thiệu</h4>
+                        <ul class="list-unstyled text-small ">
+                            <li><a class="link " href="# ">Về Chúng Tôi</a></li>
+                            <li><a class="link " href="All_Products.html ">Sản Phẩm</a></li>
+                            <li><a class="link " href="# ">Khuyến Mãi</a></li>
+                            <li><a class="link " href="# ">Chuyện Cà Phê</a></li>
+                            <li><a class="link " href="# ">Tuyển Dụng</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md ">
+                        <h4>Điều Khoản</h4>
+                        <ul class="list-unstyled text-small ">
+                            <li><a class="link " href="# ">Điều Khoản Sử Dụng</a></li>
+                            <li><a class="link " href="# ">Chính Sách Bảo Mật</a></li>
+                            <li><a class="link " href="# ">Chính Sách Hoàn Trả</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md ">
+                        <h4>Liên Hệ</h4>
+                        <div class="contact ">
+                            <span><i class="bx bxs-map "></i>451 Hai Bà Trưng, P.8, Q.3, TP.Hồ Chí Minh</span>
+                            <span><i class="bx bxs-phone "></i>1800 6936</span>
+                            <span><i class="bx bxs-envelope "></i>hi@thecoffeehouse.vn</span>
+                        </div>
+                    </div>
+
+                </div>
+            </footer>
+        </div>
+        <script src="../assets/dist/js/bootstrap.bundle.min.js "></script>
+</body>
+
+</html>
