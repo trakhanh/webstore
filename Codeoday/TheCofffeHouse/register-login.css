@@ -7,9 +7,6 @@
         align-items: center;
         padding: 20px
     }
-    /* img {
-        border-radius: 35px;
-    } */
     
     section .container {
         overflow: hidden;
@@ -110,8 +107,7 @@
         color: orange;
         cursor: pointer
     }
-    
-    section .container .signupbox {
+    /* section .container .signupbox {
         pointer-events: none
     }
     
@@ -139,6 +135,7 @@
     section .container.active .signupbox+.main-section {
         background-color: orange!important
     }
+     */
     
     section .container .signinbox .formbox {
         left: 0
