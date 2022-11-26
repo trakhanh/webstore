@@ -107,36 +107,7 @@
         color: orange;
         cursor: pointer
     }
-    /* section .container .signupbox {
-        pointer-events: none
-    }
-    
-    section .container.active .signupbox {
-        pointer-events: initial
-    }
-    
-    section .container .signupbox .formbox {
-        left: 100%
-    }
-    
-    section .container.active .signupbox .formbox {
-        left: 0
-    }
-    
-    section .container .signupbox .imagebox {
-        left: -100%
-    }
-    
-    section .container.active .signupbox .imagebox {
-        transform: rotate(360deg);
-        left: 0
-    }
-    
-    section .container.active .signupbox+.main-section {
-        background-color: orange!important
-    }
-     */
-    
+  
     section .container .signinbox .formbox {
         left: 0
     }
