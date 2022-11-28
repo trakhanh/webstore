@@ -153,7 +153,8 @@
     }
     
     .dropdown-item:hover {
-        background-color: whitesmoke;
+        color: orange;
+        background-color: #fff;
     }
     
     .nav-item {
@@ -670,7 +671,7 @@
     }
     
     .nameid {
-        padding-right: 20px;
+        padding-right: 48.9px;
         font-weight: 600;
     }
     
@@ -680,4 +681,12 @@
     
     .logo-bottom:hover {
         color: orange;
+    }
+    
+    .xyz {
+        font-weight: 500;
+    }
+    
+    .out:hover {
+        color: red;
     }
