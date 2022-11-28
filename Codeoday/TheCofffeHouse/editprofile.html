@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/product/">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="editprofile.css">
+    <title>Cozy Coffee Shop</title>
+
+</head>
+
+<body>
+    <header class="navbar navbar-expand-xl bg-light">
+        <div class="container-fluid">
+
+            <a href="homepage.html" class="logo mr-auto"> <i class="fas fa-mug-hot"></i> Cozy Coffee</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                </span>
+                    </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link table-active" aria-current="page" role="button" href="homepage.html">Trang Chủ</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sản Phẩm
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="coffe.html">Cà Phê</a>
+                            </li>
+                            <li><a class="dropdown-item" href="tea1.html">Trà</a></li>
+                            <li><a class="dropdown-item" href="daxay.html">Đá Xay</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="All_Products.html">Tất Cả Sản Phẩm</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link table-active" aria-current="page" href="aboutus.html">Giới Thiệu</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0 search">
+
+                    <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+                    <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+                </form>
+                <div class="dropdown">
+                    <a class="nav-link dropdown-toggle nameid" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ID-CUSTOMER </a>
+                    <ul class="dropdown-menu ">
+                        <li><a class="dropdown-item xyz" href="#">Tài Khoản</a></li>
+                        <li><a class="dropdown-item xyz" href="#">Chỉnh Sửa Thông Tin</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item xyz out" href="#">Đăng Xuất</a></li>
+                    </ul>
+                </div>
+                <div class="cart">
+                    <a href="shop-cart.html"><i class='bx bx-cart-alt'></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Account details card-->
+            <div class="card col-md-12 haha">
+                <div class="card-header">Thông Tin Của Bạn</div>
+                <div class="card-body ">
+                    <form>
+                        <!-- Form Row-->
+                        <div class="row gx-3 mb-3">
+                            <!-- Form Group (first name)-->
+                            <div class="col-md-6">
+                                <label class="small mb-1" for="inputFirstName">Họ Của Bạn</label>
+                                <input class="form-control" id="inputFirstName" type="text" placeholder="Nhập Họ Của Bạn">
+                            </div>
+                            <!-- Form Group (last name)-->
+                            <div class="col-md-6">
+                                <label class="small mb-1" for="inputLastName">Tên Của Bạn</label>
+                                <input class="form-control" id="inputLastName" type="text" placeholder="Nhập Tên Của Bạn">
+                            </div>
+                        </div>
+                        <!-- Form Row        -->
+                        <div class="row gx-3 mb-3">
+                            <!-- Form Group (email address)-->
+                            <div class="col-md-6">
+                                <label class="small mb-1" for="inputEmailAddress">Địa Chỉ Email Của Bạn</label>
+                                <input class="form-control" id="inputEmailAddress" type="email" placeholder="Nhập Địa Chỉ Email Của Bạn">
+                            </div>
+                            <!-- Form Group (location)-->
+                            <div class="col-md-6">
+                                <label class="small mb-1" for="inputLocation">Địa Chỉ Của Bạn</label>
+                                <input class="form-control" id="inputLocation" type="text" placeholder="Nhập Địa Chỉ Của Bạn">
+                            </div>
+                        </div>
+                        <!-- Form Row-->
+                        <div class="row gx-3 mb-3">
+                            <!-- Form Group (phone number)-->
+                            <div class="col-md-6">
+                                <label class="small mb-1" for="inputPhone">Số Điện Thoại Của Bạn</label>
+                                <input class="form-control" id="inputPhone" type="tel" name="phone" placeholder="Nhập Số Điện Thoại Của Bạn ">
+                            </div>
+                            <!-- Form Group (birthday)-->
+                            <div class="col-md-6 ">
+                                <label class="small mb-1 " for="inputBirthday ">Ngày Tháng Năm Sinh Của Bạn</label>
+                                <input class="form-control " id="inputBirthday " type="date " name="birthday " placeholder="Nhập Ngày Tháng Năm Sinh Của Bạn ">
+                            </div>
+                        </div>
+                        <!-- Save changes button-->
+                        <button class="btn btn-primary editsave " type="button ">Lưu Thay Đổi</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid ">
+        <div class="row ">
+            <div class="col-6 col-md ">
+                <a href="homepage.html " class="logo-bottom "> <i class="fas fa-mug-hot "></i> Cozy Coffee </a>
+                <div class="social ">
+                    <a href="# " class="fab fa-facebook-f "></a>
+                    <a href="# " class="fab fa-linkedin "></a>
+                    <a href="# " class="fab fa-twitter "></a>
+                    <a href="# " class="fab fa-github "></a>
+                </div>
+            </div>
+            <div class="col-6 col-md ">
+                <h4>Giới Thiệu</h4>
+                <ul class="list-unstyled text-small ">
+                    <li><a class="link " href="# ">Về Chúng Tôi</a></li>
+                    <li><a class="link " href="All_Products.html ">Sản Phẩm</a></li>
+                    <li><a class="link " href="# ">Khuyến Mãi</a></li>
+                    <li><a class="link " href="# ">Chuyện Cà Phê</a></li>
+                    <li><a class="link " href="# ">Tuyển Dụng</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md ">
+                <h4>Điều Khoản</h4>
+                <ul class="list-unstyled text-small ">
+                    <li><a class="link " href="# ">Điều Khoản Sử Dụng</a></li>
+                    <li><a class="link " href="# ">Chính Sách Bảo Mật</a></li>
+                    <li><a class="link " href="# ">Chính Sách Hoàn Trả</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md ">
+                <h4>Liên Hệ</h4>
+                <div class="contact ">
+                    <span><i class="bx bxs-map "></i>451 Hai Bà Trưng, P.8, Q.3, TP.Hồ Chí Minh</span>
+                    <span><i class="bx bxs-phone "></i>1800 6936</span>
+                    <span><i class="bx bxs-envelope "></i>hi@thecoffeehouse.vn</span>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js "></script>
+    <!-- <script src="/Codeoday/script.js "></script> -->
+
+
+</body>
+
+</html>

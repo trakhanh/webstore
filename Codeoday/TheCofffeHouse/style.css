@@ -671,7 +671,7 @@
     }
     
     .nameid {
-        padding-right: 48.9px;
+        padding-right: 49.9px;
         font-weight: 600;
     }
     
@@ -689,4 +689,15 @@
     
     .out:hover {
         color: red;
+    }
+    
+    .editsave {
+        background-color: orange;
+        border-color: orange;
+        color: black;
+        font-weight: 600;
+    }
+    
+    .editsave:hover {
+        background-color: black;
     }
