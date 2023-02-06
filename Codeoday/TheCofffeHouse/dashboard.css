@@ -63,7 +63,7 @@ td {
 }
 
 .container .content .cards {
-    padding: 20px 15px;
+    padding: 20px 15px; 
     display: flex;
     align-items: center;
     justify-content: space-between;
